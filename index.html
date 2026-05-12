@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayoub Sowed | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Ayoub Sowed, a Full Stack Developer based in Dubai, UAE. Explore projects, technical skills, and experience across modern web applications and business systems."
+    />
+    <meta
+      name="keywords"
+      content="Ayoub Sowed, Full Stack Developer UAE, Web Designer Dubai, SEO Specialist UAE, React Developer, Business Systems Developer, Portfolio"
+    />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta property="og:title" content="Ayoub Sowed | Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer portfolio highlighting projects, skills, and professional experience in modern web development."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ayoub Sowed",
+        "jobTitle": "Full Stack Developer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai",
+          "addressCountry": "UAE"
+        },
+        "knowsAbout": [
+          "Full Stack Development",
+          "Web Design",
+          "UI/UX Design",
+          "SEO Optimization",
+          "Digital Marketing",
+          "Business Systems Development"
+        ],
+        "url": "https://www.ayoubsowed.com"
+      }
+    </script>
+  </head>
+  <body>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="Ayoub Sowed home">
+          <span class="brand-mark">AS</span>
+          <span class="brand-text">Ayoub <strong>Sowed</strong></span>
+        </a>
+
+        <div class="nav-panel" id="navPanel">
+          <nav class="nav-links" id="navLinks"></nav>
+          <div class="nav-actions">
+            <a class="btn btn-primary btn-sm" id="navPrimaryCta" href="assets/cv/Ayoub-Sowed-CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="topbar-actions">
+          <button class="lang-toggle" id="langToggle" type="button">العربية</button>
+          <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navPanel">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" id="heroEyebrow"></p>
+            <h1 id="heroHeadline"></h1>
+            <p class="hero-subtitle" id="heroSubtitle"></p>
+
+            <div class="hero-actions-row">
+              <a class="btn btn-primary" id="ctaProjects" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" id="ctaCv" href="assets/cv/Ayoub-Sowed-CV.pdf" download>Download CV</a>
+              <a class="btn btn-ghost" id="ctaContact" href="#contact">Contact</a>
+            </div>
+
+            <div class="stats-grid" id="heroStats"></div>
+          </div>
+
+          <aside class="hero-panel reveal hero-side-panel">
+            <div class="hero-profile-wrap">
+              <img
+                class="hero-profile-image"
+                src="assets/profile/ayoub-sowed-profile.jpeg"
+                alt="Ayoub Sowed profile photo"
+                loading="eager"
+                onerror="this.style.display='none'; this.nextElementSibling.hidden = false;"
+              />
+              <div class="hero-profile-fallback" hidden>
+                <span>AS</span>
+              </div>
+            </div>
+            <div class="panel-chip" id="panelBadge"></div>
+            <h2 id="panelTitle"></h2>
+            <p id="panelText"></p>
+            <ul class="panel-points" id="panelPoints"></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container two-col about-layout">
+          <div class="section-copy reveal">
+            <p class="section-kicker" id="aboutKicker"></p>
+            <h2 id="aboutTitle"></h2>
+            <p id="aboutText"></p>
+          </div>
+
+          <div class="info-card reveal">
+            <h3 id="aboutCardTitle"></h3>
+            <div class="bullet-list" id="aboutBullets"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker" id="skillsKicker"></p>
+            <h2 id="skillsTitle"></h2>
+            <p id="skillsIntro"></p>
+          </div>
+          <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker" id="projectsKicker"></p>
+            <h2 id="projectsTitle"></h2>
+            <p id="projectsIntro"></p>
+          </div>
+          <div class="projects-grid" id="projectsGrid"></div>
+          <div class="section-actions reveal">
+            <a class="btn btn-ghost" id="projectsMoreLink" href="https://github.com/Lazycharm" target="_blank" rel="noreferrer">View More on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker" id="servicesKicker"></p>
+            <h2 id="servicesTitle"></h2>
+            <p id="servicesIntro"></p>
+          </div>
+          <div class="cards-grid" id="servicesGrid"></div>
+        </div>
+      </section>
+
+
+      <section class="section" id="cv">
+        <div class="container">
+          <div class="cv-banner reveal">
+            <div>
+              <p class="section-kicker" id="cvKicker"></p>
+              <h2 id="cvTitle"></h2>
+              <p id="cvText"></p>
+            </div>
+            <a class="btn btn-primary" id="cvButton" href="assets/cv/Ayoub-Sowed-CV.pdf" download>Download Resume / CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="container contact-layout contact-layout-simple">
+          <div class="section-copy reveal">
+            <p class="section-kicker" id="contactKicker"></p>
+            <h2 id="contactTitle"></h2>
+            <p id="contactIntro"></p>
+          </div>
+          <div class="contact-stack reveal" id="contactCards"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <div>
+          <a href="#home" class="brand footer-brand">
+            <span class="brand-mark">AS</span>
+            <span class="brand-text">Ayoub <strong>Sowed</strong></span>
+          </a>
+          <p class="footer-tagline" id="footerTagline"></p>
+        </div>
+
+        <div>
+          <h3 id="footerLinksTitle"></h3>
+          <div class="footer-links" id="footerLinks"></div>
+        </div>
+
+        <div>
+          <h3 id="footerSocialTitle"></h3>
+          <div class="footer-links" id="footerSocials"></div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p id="footerCopyright"></p>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTopBtn" type="button" aria-label="Scroll to top">↑</button>
+
+    <dialog class="case-dialog" id="caseStudyDialog">
+      <button class="dialog-close" id="dialogClose" aria-label="Close case study">×</button>
+      <div class="case-study">
+        <div class="case-study-head">
+          <p class="case-chip" id="caseCategory"></p>
+          <h2 id="caseTitle"></h2>
+          <p id="caseSummary"></p>
+        </div>
+
+        <div class="case-grid">
+          <div class="case-block">
+            <h3 id="labelOverview">Overview</h3>
+            <p id="caseOverview"></p>
+          </div>
+          <div class="case-block">
+            <h3 id="labelProblem">Problem</h3>
+            <p id="caseProblem"></p>
+          </div>
+          <div class="case-block">
+            <h3 id="labelSolution">Solution</h3>
+            <p id="caseSolution"></p>
+          </div>
+          <div class="case-block">
+            <h3 id="labelRole">My Role</h3>
+            <p id="caseRole"></p>
+          </div>
+          <div class="case-block">
+            <h3 id="labelStack">Tools / Stack</h3>
+            <p id="caseStack"></p>
+          </div>
+          <div class="case-block">
+            <h3 id="labelOutcome">Outcome / Impact</h3>
+            <p id="caseOutcome"></p>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

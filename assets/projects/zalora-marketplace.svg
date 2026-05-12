@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-vendor marketplace placeholder</title>
+  <desc id="desc">Placeholder thumbnail for the Zalora-style multi-vendor platform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#183b80" />
+      <stop offset="100%" stop-color="#6fa0ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="36" fill="#eef4ff" />
+  <rect x="40" y="40" width="1120" height="670" rx="28" fill="url(#bg)" />
+  <rect x="84" y="100" width="1032" height="80" rx="24" fill="#ffffff" opacity="0.94" />
+  <rect x="84" y="214" width="236" height="320" rx="24" fill="#ffffff" opacity="0.93" />
+  <rect x="350" y="214" width="236" height="320" rx="24" fill="#dbe8ff" opacity="0.95" />
+  <rect x="616" y="214" width="236" height="320" rx="24" fill="#ffffff" opacity="0.93" />
+  <rect x="882" y="214" width="236" height="320" rx="24" fill="#dbe8ff" opacity="0.95" />
+  <rect x="84" y="570" width="1032" height="70" rx="20" fill="#ffffff" opacity="0.94" />
+  <text x="90" y="668" font-size="46" font-family="Inter, Arial, sans-serif" font-weight="800" fill="#ffffff">Multi-Vendor Marketplace</text>
+  <text x="90" y="700" font-size="22" font-family="Inter, Arial, sans-serif" fill="#eef4ff">Scalable storefront structure and marketplace-ready user flows</text>
+</svg>

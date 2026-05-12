@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location \"e:\\\\My portfolio\"; cmd /c \"echo y\\|npm\\.cmd create vite@latest \\. -- --template react\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

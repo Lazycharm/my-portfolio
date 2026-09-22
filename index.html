@@ -12,7 +12,7 @@
       name="keywords"
       content="Ayoub Sowed, IT Support Specialist UAE, Okta Administrator, Google Workspace Admin, MDM Jamf Intune, IT Operations Dubai, Helpdesk Support, Onboarding Offboarding"
     />
-    <meta name="theme-color" content="#3b82f6" />
+    <meta name="theme-color" content="#0a0d12" />
     <meta property="og:title" content="Ayoub Sowed | IT Support Specialist" />
     <meta
       property="og:description"
@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -53,8 +53,10 @@
     </script>
   </head>
   <body>
-    <div class="bg-orb orb-one"></div>
-    <div class="bg-orb orb-two"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#home">Skip to content</a>
 
     <header class="site-header">
       <div class="container nav-wrap">
@@ -71,6 +73,10 @@
         </div>
 
         <div class="topbar-actions">
+          <div class="status-pill" id="headerStatus">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span id="headerStatusText"></span>
+          </div>
           <button class="lang-toggle" id="langToggle" type="button">العربية</button>
           <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navPanel">
             <span></span>
@@ -89,6 +95,15 @@
             <h1 id="heroHeadline"></h1>
             <p class="hero-subtitle" id="heroSubtitle"></p>
 
+            <div class="hero-terminal" aria-hidden="false">
+              <p class="hero-terminal-line">
+                <span class="prompt">$</span>
+                <span id="heroCommand"></span>
+                <span class="cursor-blink" aria-hidden="true"></span>
+              </p>
+              <p class="hero-terminal-response" id="heroResponse"></p>
+            </div>
+
             <div class="hero-actions-row">
               <a class="btn btn-primary" id="ctaProjects" href="#projects">View Projects</a>
               <a class="btn btn-secondary" id="ctaCv" href="assets/cv/Ayoub_Sowed_IT_Support_Specialist.pdf" download>Download CV</a>
@@ -98,25 +113,37 @@
             <div class="stats-grid" id="heroStats"></div>
           </div>
 
-          <aside class="hero-panel reveal hero-side-panel">
-            <div class="hero-profile-wrap">
-              <img
-                class="hero-profile-image"
-                src="assets/profile/ayoub-sowed-profile.jpeg"
-                alt="Ayoub Sowed profile photo"
-                loading="eager"
-                onerror="this.style.display='none'; this.nextElementSibling.hidden = false;"
-              />
-              <div class="hero-profile-fallback" hidden>
-                <span>AS</span>
-              </div>
+          <aside class="hero-panel reveal hero-side-panel terminal-window">
+            <div class="terminal-header">
+              <span class="dot dot-red" aria-hidden="true"></span>
+              <span class="dot dot-amber" aria-hidden="true"></span>
+              <span class="dot dot-green" aria-hidden="true"></span>
+              <span class="terminal-title">profile.sh</span>
             </div>
-            <div class="panel-chip" id="panelBadge"></div>
-            <h2 id="panelTitle"></h2>
-            <p id="panelText"></p>
-            <ul class="panel-points" id="panelPoints"></ul>
+            <div class="terminal-body">
+              <div class="hero-profile-wrap">
+                <img
+                  class="hero-profile-image"
+                  src="assets/profile/ayoub-sowed-profile.jpeg"
+                  alt="Ayoub Sowed profile photo"
+                  loading="eager"
+                  onerror="this.style.display='none'; this.nextElementSibling.hidden = false;"
+                />
+                <div class="hero-profile-fallback" hidden>
+                  <span>AS</span>
+                </div>
+              </div>
+              <div class="panel-chip" id="panelBadge"></div>
+              <h2 id="panelTitle"></h2>
+              <p id="panelText"></p>
+              <ul class="panel-points" id="panelPoints"></ul>
+            </div>
           </aside>
         </div>
+      </section>
+
+      <section class="status-strip" id="statusStrip" aria-label="Key metrics">
+        <div class="container status-strip-inner" id="statusStripItems"></div>
       </section>
 
       <section class="section" id="about">
@@ -166,7 +193,7 @@
             <h2 id="servicesTitle"></h2>
             <p id="servicesIntro"></p>
           </div>
-          <div class="cards-grid" id="servicesGrid"></div>
+          <div class="timeline" id="servicesGrid"></div>
         </div>
       </section>
 
@@ -224,6 +251,12 @@
     <button class="scroll-top" id="scrollTopBtn" type="button" aria-label="Scroll to top">↑</button>
 
     <dialog class="case-dialog" id="caseStudyDialog">
+      <div class="terminal-header case-dialog-header">
+        <span class="dot dot-red" aria-hidden="true"></span>
+        <span class="dot dot-amber" aria-hidden="true"></span>
+        <span class="dot dot-green" aria-hidden="true"></span>
+        <span class="terminal-title" id="caseDialogFile">case-study.log</span>
+      </div>
       <button class="dialog-close" id="dialogClose" aria-label="Close case study">×</button>
       <div class="case-study">
         <div class="case-study-head">

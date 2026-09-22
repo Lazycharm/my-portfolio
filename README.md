@@ -1,14 +1,14 @@
 # Ayoub Sowed Portfolio
 
-A premium, bilingual-ready personal portfolio website for **Ayoub Sowed**.
+Bilingual (English/Arabic) personal portfolio site for **Ayoub Sowed**, IT Support Specialist.
 
 ## Files
 
-- `index.html` — main website structure
-- `styles.css` — modern light-theme UI styling
-- `script.js` — content rendering, bilingual toggle, project case-study modal, smooth interactions
-- `assets/projects/*.webp` — project thumbnail images
-- `assets/cv/Ayoub_Sowed_IT_Support_Specialist.pdf` — downloadable CV file
+- `index.html`: main website structure
+- `styles.css`: dark, technical-themed UI styling
+- `script.js`: content rendering, bilingual toggle, project case-study modal, interactions
+- `assets/projects/`: project thumbnail images
+- `assets/cv/Ayoub_Sowed_IT_Support_Specialist.pdf`: downloadable CV file
 
 ## How to open
 
@@ -19,7 +19,7 @@ Open `index.html` in your browser.
 If Python is installed:
 
 ```powershell
-Set-Location "e:\My portfolio"
+Set-Location "D:\A office\AyoubOS\03 Projects\My portfolio"
 python -m http.server 3000
 ```
 
@@ -31,13 +31,11 @@ http://localhost:3000
 
 ## Quick edits
 
-- Update text and section content in `script.js`
-- Replace contact placeholders like `hello@ayoubsowed.com` and `+971 50 000 0000`
-- Replace the placeholder PDF in `assets/cv/`
-- Replace project SVGs in `assets/projects/` with real thumbnails later
+- Update text and section content in `script.js` (both `en` and `ar` blocks)
+- Replace the CV PDF in `assets/cv/`
+- Add or swap project images in `assets/projects/`
 
 ## Notes
 
-- The layout is prepared for **English + Arabic** with RTL support.
-- The site uses a **light premium aesthetic** and is fully responsive.
+- The layout supports English and Arabic with RTL, and is fully responsive.
 - No build step is required.

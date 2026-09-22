@@ -8,11 +8,22 @@ const content = {
       { label: "Contact", href: "#contact" }
     ],
     navCta: "Download CV",
+    header: {
+      status: "Available for work"
+    },
+    statusStrip: [
+      { value: "7+", label: "Years in IT support" },
+      { value: "4", label: "Roles across IT & systems" },
+      { value: "Jamf · Intune", label: "Device management" },
+      { value: "Available", label: "Current status", live: true }
+    ],
     hero: {
       eyebrow: "Ayoub Sowed",
       headline: "IT Support Specialist",
       subtitle:
-        "IT Support Specialist with 7 years across help desk, identity & access management (Okta, Google Workspace), device management (Jamf, Intune), and IT operations — plus hands-on experience building and maintaining the business systems I support.",
+        "IT Support Specialist with 7 years across help desk, identity & access management (Okta, Google Workspace), device management (Jamf, Intune), and IT operations, plus hands-on experience building and maintaining the business systems I support.",
+      command: "whoami --verbose",
+      response: "IT Support Specialist · Okta & Google Workspace · Jamf/Intune MDM · Dubai, UAE",
       actions: {
         projects: "View Projects",
         cv: "Download CV",
@@ -26,7 +37,7 @@ const content = {
       panelBadge: "Professional summary",
       panelTitle: "First point of contact for people, systems, and access",
       panelText:
-        "My background spans help desk support, identity and access management, device management, and everyday IT operations — backed by hands-on experience building and maintaining the systems I support.",
+        "My background spans help desk support, identity and access management, device management, and everyday IT operations, backed by hands-on experience building and maintaining the systems I support.",
       panelPoints: [
         "Manages identity & access across Okta and Google Workspace (SSO, MFA, provisioning)",
         "Administers device management with Jamf (macOS) and Microsoft Intune (Windows)",
@@ -37,7 +48,7 @@ const content = {
       kicker: "About",
       title: "Professional Summary",
       text:
-        "IT Support Specialist based in Dubai, UAE with 7 years of experience across help desk, internal IT support, and systems work, including identity and access management (Okta, Google Workspace, SSO, MFA), device management (Jamf, Microsoft Intune), and everyday collaboration tools (Slack, Microsoft 365). Comfortable being the first point of contact for employees — triaging tickets, resolving workstation and account issues, and managing onboarding and offboarding end to end. Uses scripting and automation to cut down repetitive manual work and keep systems running smoothly.",
+        "IT Support Specialist based in Dubai, UAE with 7 years of experience across help desk, internal IT support, and systems work, including identity and access management (Okta, Google Workspace, SSO, MFA), device management (Jamf, Microsoft Intune), and everyday collaboration tools (Slack, Microsoft 365). Comfortable being the first point of contact for employees: triaging tickets, resolving workstation and account issues, and managing onboarding and offboarding end to end. Uses scripting and automation to cut down repetitive manual work and keep systems running smoothly.",
       cardTitle: "Highlights",
       bullets: [
         "7 years across help desk, IT support, and systems administration",
@@ -90,7 +101,7 @@ const content = {
       kicker: "Projects",
       title: "Selected Work",
       intro:
-        "Real systems and platforms I've built and supported — from community platforms to business tools and school administration systems.",
+        "Real systems and platforms I've built and supported, from community platforms to business tools and school administration systems.",
       ctaCase: "View Details",
       ctaDemo: "Contact",
       ctaMore: "View GitHub Profile",
@@ -138,9 +149,9 @@ const content = {
           key: "iqra-school-management",
           title: "Iqra School Management System",
           category: "Education Platform • School Administration",
-          image: "assets/projects/project-placeholder.svg",
+          image: "assets/projects/iqra-school-management.png",
           summary:
-            "A WordPress-based school management system handling student records, grading, and automated report cards for Iqra school — replacing manual, paper-based administration.",
+            "A WordPress-based school management system handling student records, grading, and automated report cards for Iqra school in place of manual, paper-based administration.",
           stack: ["WordPress", "PHP", "MySQL", "Custom Plugin Development"],
           overview:
             "Built and maintained a custom school management plugin covering student records, class administration, subject and marks management, and automated report card generation.",
@@ -225,7 +236,7 @@ const content = {
           bullets: [
             "First point of contact for internal team members, triaging tickets and resolving hardware, software, and application issues",
             "Manages user accounts and access across Okta and Google Workspace, including password resets, MFA, and SSO troubleshooting",
-            "Handles onboarding and offboarding end to end — provisioning accounts and hardware on day one, revoking access cleanly on exit",
+            "Handles onboarding and offboarding end to end: provisioning accounts and hardware on day one, revoking access cleanly on exit",
             "Supports Slack and Microsoft 365 for everyday collaboration",
             "Maintains and troubleshoots the company website, monitoring performance and security",
             "Built internal quotation, invoicing, and receipt tools to replace manual processes",
@@ -270,7 +281,7 @@ const content = {
       kicker: "Why Work With Me",
       title: "A partner who understands both the build and the business outcome",
       intro:
-        "The difference is not just technical delivery — it’s knowing how design, development, SEO, and performance work together to create stronger business results.",
+        "The difference is not just technical delivery: it’s knowing how design, development, SEO, and performance work together to create stronger business results.",
       reasons: [
         "4+ years of hands-on experience across websites, business systems, and digital products",
         "A rare combination of development, design, SEO, and growth-focused thinking",
@@ -309,7 +320,7 @@ const content = {
       kicker: "Contact",
       title: "Get in touch",
       intro:
-        "Open to IT support, helpdesk, and systems roles — active UAE visa, available immediately.",
+        "Open to IT support, helpdesk, and systems roles (active UAE visa, available immediately).",
       cards: [
         { title: "Email", text: "sowedayoub21@gmail.com", href: "mailto:sowedayoub21@gmail.com" },
         { title: "Phone", text: "+971 56 952 0569", href: "tel:+971569520569" },
@@ -353,11 +364,22 @@ const content = {
       { label: "التواصل", href: "#contact" }
     ],
     navCta: "تحميل السيرة الذاتية",
+    header: {
+      status: "متاح للعمل"
+    },
+    statusStrip: [
+      { value: "+7", label: "سنوات في الدعم التقني" },
+      { value: "4", label: "أدوار في تقنية المعلومات والأنظمة" },
+      { value: "Jamf · Intune", label: "إدارة الأجهزة" },
+      { value: "متاح", label: "الحالة الحالية", live: true }
+    ],
     hero: {
       eyebrow: "أيوب سويد",
       headline: "أخصائي دعم تقني (IT Support Specialist)",
       subtitle:
-        "أخصائي دعم تقني بخبرة 7 سنوات في الدعم الفني وإدارة الهوية والوصول (Okta، Google Workspace) وإدارة الأجهزة (Jamf، Intune) والعمليات التقنية — إضافة إلى خبرة عملية في بناء وصيانة الأنظمة التي أدعمها.",
+        "أخصائي دعم تقني بخبرة 7 سنوات في الدعم الفني وإدارة الهوية والوصول (Okta، Google Workspace) وإدارة الأجهزة (Jamf، Intune) والعمليات التقنية، إضافة إلى خبرة عملية في بناء وصيانة الأنظمة التي أدعمها.",
+      command: "whoami --verbose",
+      response: "أخصائي دعم تقني · Okta وGoogle Workspace · إدارة أجهزة Jamf/Intune · دبي، الإمارات",
       actions: {
         projects: "عرض المشاريع",
         cv: "تحميل السيرة الذاتية",
@@ -382,7 +404,7 @@ const content = {
       kicker: "نبذة",
       title: "ملخص مهني",
       text:
-        "أخصائي دعم تقني مقيم في دبي، الإمارات بخبرة 7 سنوات في الدعم الفني والدعم التقني الداخلي والعمل على الأنظمة، بما في ذلك إدارة الهوية والوصول (Okta، Google Workspace، SSO، MFA)، وإدارة الأجهزة (Jamf، Microsoft Intune)، وأدوات التعاون اليومية (Slack، Microsoft 365). مرتاح في دور أول نقطة تواصل للموظفين — فرز التذاكر وحل مشاكل الأجهزة والحسابات وإدارة الإلحاق والإخراج الوظيفي من البداية للنهاية. أستخدم البرمجة النصية والأتمتة لتقليل الأعمال اليدوية المتكررة والحفاظ على سير الأنظمة بسلاسة.",
+        "أخصائي دعم تقني مقيم في دبي، الإمارات بخبرة 7 سنوات في الدعم الفني والدعم التقني الداخلي والعمل على الأنظمة، بما في ذلك إدارة الهوية والوصول (Okta، Google Workspace، SSO، MFA)، وإدارة الأجهزة (Jamf، Microsoft Intune)، وأدوات التعاون اليومية (Slack، Microsoft 365). مرتاح في دور أول نقطة تواصل للموظفين: فرز التذاكر وحل مشاكل الأجهزة والحسابات وإدارة الإلحاق والإخراج الوظيفي من البداية للنهاية. أستخدم البرمجة النصية والأتمتة لتقليل الأعمال اليدوية المتكررة والحفاظ على سير الأنظمة بسلاسة.",
       cardTitle: "أبرز النقاط",
       bullets: [
         "7 سنوات خبرة في الدعم الفني والدعم التقني وإدارة الأنظمة",
@@ -435,7 +457,7 @@ const content = {
       kicker: "المشاريع",
       title: "أعمال مختارة",
       intro:
-        "أنظمة ومنصات حقيقية قمت ببنائها ودعمها — من منصات مجتمعية إلى أدوات أعمال وأنظمة إدارة مدرسية.",
+        "أنظمة ومنصات حقيقية قمت ببنائها ودعمها، من منصات مجتمعية إلى أدوات أعمال وأنظمة إدارة مدرسية.",
       ctaCase: "عرض التفاصيل",
       ctaDemo: "تواصل",
       ctaMore: "عرض ملف GitHub",
@@ -483,9 +505,9 @@ const content = {
           key: "iqra-school-management",
           title: "Iqra School Management System",
           category: "منصة تعليمية • إدارة مدرسية",
-          image: "assets/projects/project-placeholder.svg",
+          image: "assets/projects/iqra-school-management.png",
           summary:
-            "نظام إدارة مدرسية مبني على ووردبريس يدير سجلات الطلاب والدرجات وبطاقات التقارير الآلية لمدرسة Iqra — ليحل محل الإدارة الورقية اليدوية.",
+            "نظام إدارة مدرسية مبني على ووردبريس يدير سجلات الطلاب والدرجات وبطاقات التقارير الآلية لمدرسة Iqra بدلاً من الإدارة الورقية اليدوية.",
           stack: ["WordPress", "PHP", "MySQL", "Custom Plugin Development"],
           overview:
             "بنيت وصنت إضافة ووردبريس مخصصة لإدارة المدرسة تغطي سجلات الطلاب وإدارة الصفوف والمواد والدرجات وإصدار بطاقات التقارير آليًا.",
@@ -570,7 +592,7 @@ const content = {
           bullets: [
             "أول نقطة تواصل لأعضاء الفريق الداخلي، فرز التذاكر وحل مشاكل الأجهزة والبرامج والتطبيقات",
             "إدارة حسابات المستخدمين والوصول عبر Okta وGoogle Workspace، بما في ذلك إعادة تعيين كلمات المرور وMFA وحل مشاكل SSO",
-            "إدارة الإلحاق والإخراج الوظيفي من البداية للنهاية — تجهيز الحسابات والأجهزة في اليوم الأول وإلغاء الوصول بشكل نظيف عند المغادرة",
+            "إدارة الإلحاق والإخراج الوظيفي من البداية للنهاية: تجهيز الحسابات والأجهزة في اليوم الأول وإلغاء الوصول بشكل نظيف عند المغادرة",
             "دعم Slack وMicrosoft 365 للتعاون اليومي",
             "صيانة وحل مشاكل موقع الشركة، ومراقبة الأداء والأمان",
             "بناء أدوات داخلية لعروض الأسعار والفوترة والإيصالات لتحل محل العمليات اليدوية",
@@ -644,7 +666,7 @@ const content = {
     contact: {
       kicker: "التواصل",
       title: "للتواصل",
-      intro: "منفتح على وظائف الدعم التقني ومكتب المساعدة وإدارة الأنظمة — إقامة إماراتية سارية ومتاح للعمل فورًا.",
+      intro: "منفتح على وظائف الدعم التقني ومكتب المساعدة وإدارة الأنظمة (إقامة إماراتية سارية ومتاح للعمل فورًا).",
       cards: [
         { title: "البريد الإلكتروني", text: "sowedayoub21@gmail.com", href: "mailto:sowedayoub21@gmail.com" },
         { title: "الهاتف", text: "+971 56 952 0569", href: "tel:+971569520569" },
@@ -692,9 +714,13 @@ const elements = {
   langToggle: document.getElementById("langToggle"),
   menuToggle: document.getElementById("menuToggle"),
   navPanel: document.getElementById("navPanel"),
+  headerStatusText: document.getElementById("headerStatusText"),
   heroEyebrow: document.getElementById("heroEyebrow"),
   heroHeadline: document.getElementById("heroHeadline"),
   heroSubtitle: document.getElementById("heroSubtitle"),
+  heroCommand: document.getElementById("heroCommand"),
+  heroResponse: document.getElementById("heroResponse"),
+  statusStripItems: document.getElementById("statusStripItems"),
   ctaProjects: document.getElementById("ctaProjects"),
   ctaCv: document.getElementById("ctaCv"),
   ctaContact: document.getElementById("ctaContact"),
@@ -753,6 +779,7 @@ const elements = {
   scrollTopBtn: document.getElementById("scrollTopBtn"),
   dialog: document.getElementById("caseStudyDialog"),
   dialogClose: document.getElementById("dialogClose"),
+  caseDialogFile: document.getElementById("caseDialogFile"),
   caseCategory: document.getElementById("caseCategory"),
   caseTitle: document.getElementById("caseTitle"),
   caseSummary: document.getElementById("caseSummary"),
@@ -783,7 +810,9 @@ function renderSite() {
   );
 
   renderNavigation(locale);
+  renderHeaderStatus(locale);
   renderHero(locale);
+  renderStatusStrip(locale);
   renderAbout(locale);
   renderSkills(locale);
   renderProjects(locale);
@@ -801,10 +830,32 @@ function renderNavigation(locale) {
   elements.navPrimaryCta.textContent = locale.navCta;
 }
 
+function renderHeaderStatus(locale) {
+  if (elements.headerStatusText) {
+    elements.headerStatusText.textContent = locale.header.status;
+  }
+}
+
+function renderStatusStrip(locale) {
+  if (!elements.statusStripItems) return;
+  elements.statusStripItems.innerHTML = locale.statusStrip
+    .map(
+      (item) => `
+        <div class="status-item${item.live ? " is-live" : ""}">
+          <span class="status-value">${item.live ? '<span class="status-dot" aria-hidden="true"></span>' : ""}${item.value}</span>
+          <span class="status-label">${item.label}</span>
+        </div>
+      `
+    )
+    .join("");
+}
+
 function renderHero(locale) {
   elements.heroEyebrow.textContent = locale.hero.eyebrow;
   elements.heroHeadline.textContent = locale.hero.headline;
   elements.heroSubtitle.textContent = locale.hero.subtitle;
+  elements.heroCommand.textContent = locale.hero.command;
+  elements.heroResponse.textContent = locale.hero.response;
   elements.ctaProjects.textContent = locale.hero.actions.projects;
   elements.ctaCv.textContent = locale.hero.actions.cv;
   elements.ctaContact.textContent = locale.hero.actions.contact;
@@ -863,7 +914,7 @@ function renderProjects(locale) {
   elements.projectsGrid.innerHTML = locale.projects.items
     .map(
       (project) => `
-        <article class="project-card reveal">
+        <article class="project-card spotlight reveal">
           <div class="project-thumb">
             <img
               src="${project.image}"
@@ -902,9 +953,9 @@ function renderServices(locale) {
   elements.servicesGrid.innerHTML = locale.services.items
     .map(
       (item) => `
-        <article class="service-card reveal">
+        <article class="timeline-item reveal">
           <h3>${item.title}</h3>
-          <p class="project-role"><strong>${item.company}</strong> · ${item.meta}</p>
+          <p class="timeline-meta"><strong>${item.company}</strong> · ${item.meta}</p>
           <div class="bullet-list">
             ${item.bullets.map((point) => `<div class="bullet-item">${point}</div>`).join("")}
           </div>
@@ -986,6 +1037,9 @@ function renderCaseStudy(projectKey) {
   const project = locale.projects.items.find((item) => item.key === projectKey) || locale.projects.items[0];
   state.activeProject = project.key;
 
+  if (elements.caseDialogFile) {
+    elements.caseDialogFile.textContent = `${project.key}.log`;
+  }
   elements.caseCategory.textContent = project.category;
   elements.caseTitle.textContent = project.title;
   elements.caseSummary.textContent = project.summary;
@@ -1033,7 +1087,25 @@ function setupReveal() {
     { threshold: 0.12 }
   );
 
+  const groups = [elements.skillsGrid, elements.projectsGrid, elements.servicesGrid];
+  groups.forEach((group) => {
+    if (!group) return;
+    Array.from(group.children).forEach((child, index) => {
+      child.style.transitionDelay = `${Math.min(index, 6) * 70}ms`;
+    });
+  });
+
   document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
+}
+
+function setupSpotlight() {
+  document.addEventListener("pointermove", (event) => {
+    const card = event.target.closest(".spotlight");
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty("--mx", `${event.clientX - rect.left}px`);
+    card.style.setProperty("--my", `${event.clientY - rect.top}px`);
+  });
 }
 
 function toggleScrollTopButton() {
@@ -1112,4 +1184,5 @@ if (elements.contactForm) {
 
 renderSite();
 setupReveal();
+setupSpotlight();
 toggleScrollTopButton();

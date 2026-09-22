@@ -10,9 +10,9 @@ const content = {
     navCta: "Download CV",
     hero: {
       eyebrow: "Ayoub Sowed",
-      headline: "Full Stack Developer",
+      headline: "IT Support Specialist",
       subtitle:
-        "I build responsive web applications and business systems with a focus on usability, performance, and maintainable code.",
+        "IT Support Specialist with 7 years across help desk, identity & access management (Okta, Google Workspace), device management (Jamf, Intune), and IT operations — plus hands-on experience building and maintaining the business systems I support.",
       actions: {
         projects: "View Projects",
         cv: "Download CV",
@@ -20,59 +20,69 @@ const content = {
       },
       stats: [
         { value: "Dubai, UAE", label: "Location" },
-        { value: "4+ Years", label: "Experience" },
+        { value: "7+ Years", label: "Experience" },
+        { value: "Available Immediately", label: "Status" }
       ],
       panelBadge: "Professional summary",
-      panelTitle: "Focused on building reliable digital products",
+      panelTitle: "First point of contact for people, systems, and access",
       panelText:
-        "My background spans frontend development, backend systems, UI implementation, and SEO-aware builds for product and business teams.",
+        "My background spans help desk support, identity and access management, device management, and everyday IT operations — backed by hands-on experience building and maintaining the systems I support.",
       panelPoints: [
-        "Builds full stack web apps and internal tools",
-        "Comfortable across UI, API, and database layers",
-        "Values clean code, fast interfaces, and thoughtful UX"
+        "Manages identity & access across Okta and Google Workspace (SSO, MFA, provisioning)",
+        "Administers device management with Jamf (macOS) and Microsoft Intune (Windows)",
+        "Owns onboarding/offboarding, ticketing, and IT operations end to end"
       ]
     },
     about: {
       kicker: "About",
       title: "Professional Summary",
       text:
-        "Full Stack Developer based in Dubai, UAE with 4+ years of experience building web applications, business tools, and responsive user interfaces. I enjoy turning requirements into clean, practical products that are easy to use and maintain.",
+        "IT Support Specialist based in Dubai, UAE with 7 years of experience across help desk, internal IT support, and systems work, including identity and access management (Okta, Google Workspace, SSO, MFA), device management (Jamf, Microsoft Intune), and everyday collaboration tools (Slack, Microsoft 365). Comfortable being the first point of contact for employees — triaging tickets, resolving workstation and account issues, and managing onboarding and offboarding end to end. Uses scripting and automation to cut down repetitive manual work and keep systems running smoothly.",
       cardTitle: "Highlights",
       bullets: [
-        "Full stack delivery across frontend, backend, and database layers",
-        "Experience with React, Next.js, Node.js, Laravel, MySQL, and Supabase",
-        "Strong attention to UI quality, structure, and performance"
+        "7 years across help desk, IT support, and systems administration",
+        "Identity & access management: Okta, Google Workspace, SSO, MFA",
+        "Device management: Jamf (macOS) and Microsoft Intune (Windows)",
+        "Clear, patient communicator for technical and non-technical colleagues"
       ]
     },
     skills: {
       kicker: "Skills",
-      title: "Technical Skills",
+      title: "Core Skills",
       intro:
-        "Grouped by the technologies and tools I use most often across product, platform, and UI work.",
+        "Grouped by the systems, tools, and operational areas I work in day to day.",
       groups: [
         {
-          title: "Frontend",
-          items: ["React", "Next.js", "JavaScript", "HTML", "CSS"]
+          title: "Identity & Access",
+          items: ["Okta", "Google Workspace", "SSO", "MFA", "Account Provisioning"]
         },
         {
-          title: "Backend",
-          items: ["Node.js", "Laravel", "PHP"]
+          title: "Device & MDM",
+          items: ["Jamf (macOS)", "Microsoft Intune (Windows)", "Hardware Diagnosis", "Mobile Device Support"]
         },
         {
-          title: "Database",
-          items: ["MySQL", "Supabase"]
+          title: "Collaboration Tools",
+          items: ["Slack", "Microsoft 365", "Teams", "Outlook", "SharePoint"]
         },
         {
-          title: "Tools",
-          items: ["Netlify", "Hostinger", "GitHub", "Cursor AI", "Copilot"]
+          title: "Networking",
+          items: ["TCP/IP", "DNS", "Wi-Fi", "VPN", "UniFi / Ubiquiti"]
         },
         {
-          title: "Design",
-          items: ["Figma", "Photoshop", "UI/UX", "Responsive Design"]
+          title: "IT Operations",
+          items: ["Helpdesk Ticketing", "Onboarding / Offboarding", "Hardware Inventory", "Documentation"]
         },
         {
-          title: "Marketing",
-          items: ["SEO", "SEM", "Google Analytics", "Search Console"]
+          title: "Application & Systems Support",
+          items: ["Business Applications", "Databases", "APIs", "Integrations", "Hosting"]
+        },
+        {
+          title: "Automation",
+          items: ["Scripting", "Workflow Automation"]
+        },
+        {
+          title: "Technical Tools",
+          items: ["GitHub", "Git", "VS Code", "MySQL", "Supabase", "Netlify", "Hostinger"]
         }
       ]
     },
@@ -80,7 +90,7 @@ const content = {
       kicker: "Projects",
       title: "Selected Work",
       intro:
-        "Recent projects across product development, internal tools, and user-facing platforms.",
+        "Real systems and platforms I've built and supported — from community platforms to business tools and school administration systems.",
       ctaCase: "View Details",
       ctaDemo: "Contact",
       ctaMore: "View GitHub Profile",
@@ -106,15 +116,15 @@ const content = {
             "A clearer and more supportive job-search experience designed to improve application quality and interview readiness."
         },
         {
-          key: "document-system",
-          title: "Document System",
-          category: "Business Tool Platform • SaaS System",
+          key: "clearbill",
+          title: "ClearBill",
+          category: "Business Tool Platform • Billing & Invoicing",
           image: "assets/projects/document-system.webp",
           summary:
-            "A scalable business management system built to simplify invoicing, quotations, and document workflows for modern companies.",
+            "A billing, quotation, and invoice management system built to replace manual paperwork and streamline everyday business administration.",
           stack: ["Dashboard UI", "Scalable Architecture", "Tailwind CSS", "Workflow Automation"],
           overview:
-            "This project focused on turning document-heavy processes into a cleaner, more organized SaaS-style workflow for growing businesses.",
+            "ClearBill turns document-heavy billing processes into a cleaner, more organized workflow for growing businesses.",
           problem:
             "Manual quotation and invoicing processes often slow teams down, create inconsistency, and reduce operational clarity.",
           solution:
@@ -123,6 +133,25 @@ const content = {
             "System planning, dashboard UX, interface design, and workflow structuring for scalable business operations.",
           outcome:
             "A more efficient document management experience that supports smoother operations and stronger client-facing professionalism."
+        },
+        {
+          key: "iqra-school-management",
+          title: "Iqra School Management System",
+          category: "Education Platform • School Administration",
+          image: "assets/projects/project-placeholder.svg",
+          summary:
+            "A WordPress-based school management system handling student records, grading, and automated report cards for Iqra school — replacing manual, paper-based administration.",
+          stack: ["WordPress", "PHP", "MySQL", "Custom Plugin Development"],
+          overview:
+            "Built and maintained a custom school management plugin covering student records, class administration, subject and marks management, and automated report card generation.",
+          problem:
+            "Manual, paper-based student records and report cards made grading, attendance tracking, and academic administration slow and error-prone.",
+          solution:
+            "I developed and maintained custom PHP modules for grading, marks entry, class administration, and automated report card generation (including A-Level and standard formats), with ongoing fixes and feature patches.",
+          role:
+            "Systems development, PHP/WordPress plugin customization, database structure, and ongoing maintenance and bug fixes.",
+          outcome:
+            "A digitized school administration system that reduces manual paperwork and gives staff a reliable way to manage grades, records, and report cards."
         },
         {
           key: "bloom-broom",
@@ -184,34 +213,56 @@ const content = {
       ]
     },
     services: {
-      kicker: "Experience Focus",
-      title: "Where I Contribute Best",
+      kicker: "Experience",
+      title: "Where I've Worked",
       intro:
-        "The areas below reflect the type of engineering and product work I’m most comfortable contributing to.",
+        "Professional experience across help desk support, systems administration, and technical operations.",
       items: [
         {
-          title: "Frontend Development",
-          text: "Responsive interfaces built with attention to usability, accessibility, and performance."
+          title: "IT Support & Systems Specialist",
+          company: "Blockcube Technical Services LLC",
+          meta: "Seasonal · Feb 2025 – Present · United Arab Emirates · Hybrid",
+          bullets: [
+            "First point of contact for internal team members, triaging tickets and resolving hardware, software, and application issues",
+            "Manages user accounts and access across Okta and Google Workspace, including password resets, MFA, and SSO troubleshooting",
+            "Handles onboarding and offboarding end to end — provisioning accounts and hardware on day one, revoking access cleanly on exit",
+            "Supports Slack and Microsoft 365 for everyday collaboration",
+            "Maintains and troubleshoots the company website, monitoring performance and security",
+            "Built internal quotation, invoicing, and receipt tools to replace manual processes",
+            "Troubleshoots LAN, Wi-Fi, and VPN connectivity, including basic UniFi/Ubiquiti configuration",
+            "Tracks hardware inventory and writes internal knowledge base articles"
+          ]
         },
         {
-          title: "Backend Systems",
-          text: "Application logic, APIs, and data-driven workflows for practical business needs."
+          title: "IT Support Specialist / Systems Support",
+          company: "Code & Circuit",
+          meta: "Freelance · Mar 2025 – May 2026 · United Arab Emirates · Hybrid",
+          bullets: [
+            "Provided technical support across websites, business applications, hosting environments, and connected systems for multiple clients",
+            "Set up and supported user accounts and authentication, including SSO and MFA, across client environments",
+            "Built and maintained websites and custom business solutions using databases, REST APIs, authentication, and cloud hosting",
+            "Managed deployments across Hostinger and Netlify and monitored systems for availability and performance"
+          ]
         },
         {
-          title: "Dashboards & Internal Tools",
-          text: "Structured systems that help teams manage operations more efficiently."
+          title: "Technical Support and Sales Officer",
+          company: "Soft Point Electronic Chips Programming LLC",
+          meta: "Contract · Oct 2024 – Feb 2026 · United Arab Emirates · Hybrid",
+          bullets: [
+            "Provided first-line technical support to business clients evaluating electronic programming and embedded hardware solutions",
+            "Acted as the technical link between customers and engineering teams, gathering requirements and confirming specifications",
+            "Supported product demonstrations, technical onboarding, and troubleshooting sessions"
+          ]
         },
         {
-          title: "UI Implementation",
-          text: "Translating product and design requirements into polished, maintainable interfaces."
-        },
-        {
-          title: "Performance & SEO Basics",
-          text: "Clean builds with solid structure, speed awareness, and search-friendly foundations."
-        },
-        {
-          title: "Maintenance & Iteration",
-          text: "Ongoing improvements, bug fixing, and refinement as products evolve."
+          title: "Field Engineer / Web & Systems Support",
+          company: "Broadmind Automation LTD",
+          meta: "Full-time · Nov 2019 – Jun 2023 · Kampala, Uganda · Hybrid",
+          bullets: [
+            "Started in field engineering, working with industrial control boards, electrical installations, and technical equipment",
+            "Progressed into website and systems support, developing and maintaining the company website",
+            "Worked on website improvements, SEO, technical maintenance, and digital automation projects"
+          ]
         }
       ]
     },
@@ -251,23 +302,24 @@ const content = {
     cv: {
       kicker: "Resume / CV",
       title: "A concise overview of my experience and technical background",
-      text: "Download my CV for a clear summary of projects, skills, and professional experience.",
+      text: "Download my CV for a clear summary of IT support experience, technical skills, and projects.",
       button: "Download Resume / CV"
     },
     contact: {
       kicker: "Contact",
       title: "Get in touch",
       intro:
-        "Open to full-time roles, contract work, and collaborative product opportunities.",
+        "Open to IT support, helpdesk, and systems roles — active UAE visa, available immediately.",
       cards: [
         { title: "Email", text: "sowedayoub21@gmail.com", href: "mailto:sowedayoub21@gmail.com" },
-        { title: "Phone", text: "+971569520569", href: "tel:+971569520569" },
+        { title: "Phone", text: "+971 56 952 0569", href: "tel:+971569520569" },
         { title: "GitHub", text: "github.com/Lazycharm", href: "https://github.com/Lazycharm" },
-        { title: "LinkedIn", text: "linkedin.com/in/ayoub-sowed-43a9282a5", href: "https://www.linkedin.com/in/ayoub-sowed-43a9282a5" }
+        { title: "LinkedIn", text: "linkedin.com/in/ayoub-sowed-43a9282a5", href: "https://www.linkedin.com/in/ayoub-sowed-43a9282a5" },
+        { title: "Status", text: "Active UAE Visa · Available Immediately" }
       ]
     },
     footer: {
-      tagline: "Full Stack Developer portfolio focused on product, platform, and UI work.",
+      tagline: "IT Support Specialist portfolio focused on identity & access, device management, and IT operations.",
       linksTitle: "Quick Links",
       socialTitle: "Profiles",
       links: [
@@ -303,9 +355,9 @@ const content = {
     navCta: "تحميل السيرة الذاتية",
     hero: {
       eyebrow: "أيوب سويد",
-      headline: "مطور فل ستاك",
+      headline: "أخصائي دعم تقني (IT Support Specialist)",
       subtitle:
-        "أبني تطبيقات ويب وأنظمة أعمال تركّز على سهولة الاستخدام والأداء الجيد وقابلية الصيانة.",
+        "أخصائي دعم تقني بخبرة 7 سنوات في الدعم الفني وإدارة الهوية والوصول (Okta، Google Workspace) وإدارة الأجهزة (Jamf، Intune) والعمليات التقنية — إضافة إلى خبرة عملية في بناء وصيانة الأنظمة التي أدعمها.",
       actions: {
         projects: "عرض المشاريع",
         cv: "تحميل السيرة الذاتية",
@@ -313,59 +365,69 @@ const content = {
       },
       stats: [
         { value: "دبي، الإمارات", label: "الموقع" },
-        { value: "+4 سنوات", label: "الخبرة" },
+        { value: "+7 سنوات", label: "الخبرة" },
+        { value: "متاح فورًا", label: "الحالة" }
       ],
       panelBadge: "ملخص مهني",
-      panelTitle: "تركيز على بناء منتجات رقمية موثوقة",
+      panelTitle: "أول نقطة تواصل للموظفين والأنظمة وصلاحيات الوصول",
       panelText:
-        "تشمل خبرتي تطوير الواجهات والأنظمة الخلفية وتنفيذ UI وبناء منتجات عملية لفرق الأعمال والمنتجات.",
+        "تشمل خبرتي الدعم الفني وإدارة الهوية والوصول وإدارة الأجهزة والعمليات التقنية اليومية، مدعومة بخبرة عملية في بناء وصيانة الأنظمة التي أدعمها.",
       panelPoints: [
-        "تطوير تطبيقات ويب وأدوات داخلية متكاملة",
-        "راحة في العمل على الواجهة وواجهات البرمجة وقواعد البيانات",
-        "اهتمام بالكود النظيف وسرعة الواجهة وتجربة المستخدم"
+        "إدارة الهوية والوصول عبر Okta وGoogle Workspace (SSO، MFA، إنشاء الحسابات)",
+        "إدارة الأجهزة عبر Jamf (macOS) وMicrosoft Intune (Windows)",
+        "مسؤول كامل عن الإلحاق والإخراج الوظيفي والتذاكر والعمليات التقنية"
       ]
     },
     about: {
       kicker: "نبذة",
       title: "ملخص مهني",
       text:
-        "مطور فل ستاك في دبي، الإمارات بخبرة تتجاوز +4 سنوات في بناء تطبيقات الويب وأدوات الأعمال والواجهات المتجاوبة. أركز على تحويل المتطلبات إلى منتجات عملية ونظيفة وسهلة الاستخدام والصيانة.",
+        "أخصائي دعم تقني مقيم في دبي، الإمارات بخبرة 7 سنوات في الدعم الفني والدعم التقني الداخلي والعمل على الأنظمة، بما في ذلك إدارة الهوية والوصول (Okta، Google Workspace، SSO، MFA)، وإدارة الأجهزة (Jamf، Microsoft Intune)، وأدوات التعاون اليومية (Slack، Microsoft 365). مرتاح في دور أول نقطة تواصل للموظفين — فرز التذاكر وحل مشاكل الأجهزة والحسابات وإدارة الإلحاق والإخراج الوظيفي من البداية للنهاية. أستخدم البرمجة النصية والأتمتة لتقليل الأعمال اليدوية المتكررة والحفاظ على سير الأنظمة بسلاسة.",
       cardTitle: "أبرز النقاط",
       bullets: [
-        "تنفيذ متكامل عبر الواجهة الأمامية والخلفية وقواعد البيانات",
-        "خبرة في React وNext.js وNode.js وLaravel وMySQL وSupabase",
-        "اهتمام قوي بجودة الواجهة والتنظيم والأداء"
+        "7 سنوات خبرة في الدعم الفني والدعم التقني وإدارة الأنظمة",
+        "إدارة الهوية والوصول: Okta، Google Workspace، SSO، MFA",
+        "إدارة الأجهزة: Jamf (macOS) وMicrosoft Intune (Windows)",
+        "تواصل واضح وصبور مع الزملاء التقنيين وغير التقنيين"
       ]
     },
     skills: {
       kicker: "المهارات",
-      title: "المهارات التقنية",
+      title: "المهارات الأساسية",
       intro:
-        "مجمعة حسب التقنيات والأدوات التي أستخدمها بشكل متكرر في بناء المنتجات والمنصات والواجهات.",
+        "مجمعة حسب الأنظمة والأدوات والمجالات التشغيلية التي أعمل عليها يوميًا.",
       groups: [
         {
-          title: "الواجهة الأمامية",
-          items: ["React", "Next.js", "JavaScript", "HTML", "CSS"]
+          title: "الهوية والوصول",
+          items: ["Okta", "Google Workspace", "SSO", "MFA", "إنشاء وإلغاء الحسابات"]
         },
         {
-          title: "الواجهة الخلفية",
-          items: ["Node.js", "Laravel", "PHP"]
+          title: "إدارة الأجهزة (MDM)",
+          items: ["Jamf (macOS)", "Microsoft Intune (Windows)", "تشخيص الأجهزة", "دعم الأجهزة المحمولة"]
         },
         {
-          title: "قواعد البيانات",
-          items: ["MySQL", "Supabase"]
+          title: "أدوات التعاون",
+          items: ["Slack", "Microsoft 365", "Teams", "Outlook", "SharePoint"]
         },
         {
-          title: "الأدوات",
-          items: ["Netlify", "Hostinger", "GitHub", "Cursor AI", "Copilot"]
+          title: "الشبكات",
+          items: ["TCP/IP", "DNS", "Wi-Fi", "VPN", "UniFi / Ubiquiti"]
         },
         {
-          title: "التصميم",
-          items: ["Figma", "Photoshop", "UI/UX", "Responsive Design"]
+          title: "العمليات التقنية",
+          items: ["نظام تذاكر الدعم الفني", "الإلحاق والإخراج الوظيفي", "جرد الأجهزة", "التوثيق"]
         },
         {
-          title: "التسويق",
-          items: ["SEO", "SEM", "Google Analytics", "Search Console"]
+          title: "دعم الأنظمة والتطبيقات",
+          items: ["تطبيقات الأعمال", "قواعد البيانات", "APIs", "التكاملات", "الاستضافة"]
+        },
+        {
+          title: "الأتمتة",
+          items: ["البرمجة النصية", "أتمتة سير العمل"]
+        },
+        {
+          title: "الأدوات التقنية",
+          items: ["GitHub", "Git", "VS Code", "MySQL", "Supabase", "Netlify", "Hostinger"]
         }
       ]
     },
@@ -373,7 +435,7 @@ const content = {
       kicker: "المشاريع",
       title: "أعمال مختارة",
       intro:
-        "مجموعة من المشاريع الحديثة في تطوير المنتجات والأدوات الداخلية والمنصات الموجهة للمستخدم.",
+        "أنظمة ومنصات حقيقية قمت ببنائها ودعمها — من منصات مجتمعية إلى أدوات أعمال وأنظمة إدارة مدرسية.",
       ctaCase: "عرض التفاصيل",
       ctaDemo: "تواصل",
       ctaMore: "عرض ملف GitHub",
@@ -399,15 +461,15 @@ const content = {
             "تجربة أوضح وأكثر دعمًا للباحثين عن عمل بهدف رفع جودة التقديم والجاهزية للمقابلات."
         },
         {
-          key: "document-system",
-          title: "Document System",
-          category: "منصة أدوات أعمال • نظام SaaS",
+          key: "clearbill",
+          title: "ClearBill",
+          category: "منصة أدوات أعمال • فوترة وعروض أسعار",
           image: "assets/projects/document-system.webp",
           summary:
-            "نظام إدارة أعمال قابل للتوسع صُمم لتبسيط الفواتير وعروض الأسعار وتدفقات المستندات للشركات الحديثة.",
+            "نظام لإدارة الفواتير وعروض الأسعار والمستندات صُمم ليحل محل الأعمال الورقية اليدوية ويبسّط الإدارة اليومية للأعمال.",
           stack: ["Dashboard UI", "Scalable Architecture", "Tailwind CSS", "Workflow Automation"],
           overview:
-            "يركز هذا المشروع على تحويل العمليات المعتمدة على المستندات إلى تجربة أوضح وأكثر تنظيمًا بأسلوب SaaS حديث.",
+            "يحوّل ClearBill العمليات المعتمدة على المستندات إلى تجربة أوضح وأكثر تنظيمًا بأسلوب SaaS حديث.",
           problem:
             "العمليات اليدوية الخاصة بعروض الأسعار والفواتير غالبًا ما تبطئ الفرق وتسبب عدم اتساق وتقلل من وضوح سير العمل.",
           solution:
@@ -416,6 +478,25 @@ const content = {
             "تخطيط النظام وتصميم تجربة لوحة التحكم وتنظيم الواجهة وهيكلة التدفقات التشغيلية القابلة للتوسع.",
           outcome:
             "تجربة أكثر كفاءة لإدارة المستندات تدعم العمليات اليومية وتمنح حضورًا أكثر احترافية أمام العملاء."
+        },
+        {
+          key: "iqra-school-management",
+          title: "Iqra School Management System",
+          category: "منصة تعليمية • إدارة مدرسية",
+          image: "assets/projects/project-placeholder.svg",
+          summary:
+            "نظام إدارة مدرسية مبني على ووردبريس يدير سجلات الطلاب والدرجات وبطاقات التقارير الآلية لمدرسة Iqra — ليحل محل الإدارة الورقية اليدوية.",
+          stack: ["WordPress", "PHP", "MySQL", "Custom Plugin Development"],
+          overview:
+            "بنيت وصنت إضافة ووردبريس مخصصة لإدارة المدرسة تغطي سجلات الطلاب وإدارة الصفوف والمواد والدرجات وإصدار بطاقات التقارير آليًا.",
+          problem:
+            "كانت سجلات الطلاب وبطاقات التقارير الورقية تجعل عمليات الدرجات والحضور والإدارة الأكاديمية بطيئة وعرضة للأخطاء.",
+          solution:
+            "طورت وصنت وحدات PHP مخصصة لإدارة الدرجات وإدخال العلامات وإدارة الصفوف وإصدار بطاقات التقارير آليًا (بما في ذلك صيغ A-Level والصيغ القياسية)، مع إصلاحات وتحديثات مستمرة.",
+          role:
+            "تطوير الأنظمة وتخصيص إضافة ووردبريس بلغة PHP وهيكلة قاعدة البيانات والصيانة المستمرة وإصلاح الأخطاء.",
+          outcome:
+            "نظام إدارة مدرسية رقمي يقلل من الأعمال الورقية ويمنح الطاقم وسيلة موثوقة لإدارة الدرجات والسجلات وبطاقات التقارير."
         },
         {
           key: "bloom-broom",
@@ -477,17 +558,57 @@ const content = {
       ]
     },
     services: {
-      kicker: "مجالات الخبرة",
-      title: "أين أضيف قيمة أكبر",
+      kicker: "الخبرة",
+      title: "أماكن عملي",
       intro:
-        "تعكس الأقسام التالية نوع العمل الهندسي والمنتجي الذي أستطيع المساهمة فيه بشكل أفضل.",
+        "خبرة مهنية في الدعم الفني وإدارة الأنظمة والعمليات التقنية.",
       items: [
-        { title: "تطوير الواجهات", text: "واجهات متجاوبة تركز على سهولة الاستخدام وإمكانية الوصول والأداء." },
-        { title: "الأنظمة الخلفية", text: "منطق التطبيقات وواجهات البرمجة وتدفقات البيانات لتلبية احتياجات عملية." },
-        { title: "لوحات التحكم والأدوات الداخلية", text: "أنظمة منظمة تساعد الفرق على إدارة العمليات بكفاءة أعلى." },
-        { title: "تنفيذ UI", text: "تحويل المتطلبات والتصاميم إلى واجهات متقنة وقابلة للصيانة." },
-        { title: "الأداء وSEO الأساسي", text: "بناءات نظيفة وسريعة بهيكل جيد وقابلية أفضل للاكتشاف." },
-        { title: "الصيانة والتحسين", text: "تطوير مستمر وإصلاحات وتحسينات مع تطور المنتج." }
+        {
+          title: "أخصائي دعم تقني وأنظمة",
+          company: "Blockcube Technical Services LLC",
+          meta: "موسمي · فبراير 2025 – حتى الآن · الإمارات العربية المتحدة · هجين",
+          bullets: [
+            "أول نقطة تواصل لأعضاء الفريق الداخلي، فرز التذاكر وحل مشاكل الأجهزة والبرامج والتطبيقات",
+            "إدارة حسابات المستخدمين والوصول عبر Okta وGoogle Workspace، بما في ذلك إعادة تعيين كلمات المرور وMFA وحل مشاكل SSO",
+            "إدارة الإلحاق والإخراج الوظيفي من البداية للنهاية — تجهيز الحسابات والأجهزة في اليوم الأول وإلغاء الوصول بشكل نظيف عند المغادرة",
+            "دعم Slack وMicrosoft 365 للتعاون اليومي",
+            "صيانة وحل مشاكل موقع الشركة، ومراقبة الأداء والأمان",
+            "بناء أدوات داخلية لعروض الأسعار والفوترة والإيصالات لتحل محل العمليات اليدوية",
+            "حل مشاكل الاتصال بشبكة LAN وWi-Fi وVPN، بما في ذلك إعداد أساسي لأجهزة UniFi/Ubiquiti",
+            "متابعة جرد الأجهزة وكتابة مقالات قاعدة المعرفة الداخلية"
+          ]
+        },
+        {
+          title: "أخصائي دعم تقني / دعم أنظمة",
+          company: "Code & Circuit",
+          meta: "عمل حر · مارس 2025 – مايو 2026 · الإمارات العربية المتحدة · هجين",
+          bullets: [
+            "تقديم الدعم الفني عبر المواقع وتطبيقات الأعمال وبيئات الاستضافة والأنظمة المترابطة لعدة عملاء",
+            "إعداد ودعم حسابات المستخدمين والمصادقة، بما في ذلك SSO وMFA، عبر بيئات العملاء المختلفة",
+            "بناء وصيانة مواقع وحلول أعمال مخصصة باستخدام قواعد البيانات وREST APIs والمصادقة والاستضافة السحابية",
+            "إدارة عمليات النشر عبر Hostinger وNetlify ومراقبة الأنظمة من حيث التوفر والأداء"
+          ]
+        },
+        {
+          title: "مسؤول دعم فني ومبيعات",
+          company: "Soft Point Electronic Chips Programming LLC",
+          meta: "عقد · أكتوبر 2024 – فبراير 2026 · الإمارات العربية المتحدة · هجين",
+          bullets: [
+            "تقديم دعم فني أولي لعملاء الأعمال الذين يقيّمون حلول برمجة الشرائح الإلكترونية والأجهزة المدمجة",
+            "العمل كحلقة وصل تقنية بين العملاء وفرق الهندسة، وجمع المتطلبات وتأكيد المواصفات التقنية",
+            "دعم العروض التوضيحية للمنتجات والإلحاق التقني وجلسات استكشاف الأخطاء"
+          ]
+        },
+        {
+          title: "مهندس ميداني / دعم ويب وأنظمة",
+          company: "Broadmind Automation LTD",
+          meta: "دوام كامل · نوفمبر 2019 – يونيو 2023 · كمبالا، أوغندا · هجين",
+          bullets: [
+            "بدأ في الهندسة الميدانية، العمل مع لوحات التحكم الصناعية والتركيبات الكهربائية والمعدات التقنية",
+            "انتقل إلى دعم المواقع والأنظمة، تطوير وصيانة موقع الشركة",
+            "العمل على تحسينات الموقع وSEO والصيانة التقنية ومشاريع الأتمتة الرقمية"
+          ]
+        }
       ]
     },
     why: {
@@ -517,22 +638,23 @@ const content = {
     cv: {
       kicker: "السيرة الذاتية",
       title: "نظرة مختصرة على الخبرة والخلفية التقنية",
-      text: "حمّل السيرة الذاتية للحصول على ملخص واضح للمشاريع والمهارات والخبرة المهنية.",
+      text: "حمّل السيرة الذاتية للحصول على ملخص واضح لخبرة الدعم التقني والمهارات والمشاريع.",
       button: "تحميل السيرة الذاتية"
     },
     contact: {
       kicker: "التواصل",
       title: "للتواصل",
-      intro: "منفتح على الفرص الوظيفية الكاملة والعقود المهنية والتعاون في بناء المنتجات.",
+      intro: "منفتح على وظائف الدعم التقني ومكتب المساعدة وإدارة الأنظمة — إقامة إماراتية سارية ومتاح للعمل فورًا.",
       cards: [
         { title: "البريد الإلكتروني", text: "sowedayoub21@gmail.com", href: "mailto:sowedayoub21@gmail.com" },
-        { title: "الهاتف", text: "+971569520569", href: "tel:+971569520569" },
+        { title: "الهاتف", text: "+971 56 952 0569", href: "tel:+971569520569" },
         { title: "GitHub", text: "github.com/Lazycharm", href: "https://github.com/Lazycharm" },
-        { title: "LinkedIn", text: "linkedin.com/in/ayoub-sowed-43a9282a5", href: "https://www.linkedin.com/in/ayoub-sowed-43a9282a5" }
+        { title: "LinkedIn", text: "linkedin.com/in/ayoub-sowed-43a9282a5", href: "https://www.linkedin.com/in/ayoub-sowed-43a9282a5" },
+        { title: "الحالة", text: "إقامة إماراتية سارية · متاح للعمل فورًا" }
       ]
     },
     footer: {
-      tagline: "ملف أعمال لمطور فل ستاك يركز على المنتجات والمنصات وتجربة الواجهة.",
+      tagline: "ملف أعمال لأخصائي دعم تقني يركز على إدارة الهوية والوصول وإدارة الأجهزة والعمليات التقنية.",
       linksTitle: "روابط سريعة",
       socialTitle: "الملفات المهنية",
       links: [
@@ -782,7 +904,10 @@ function renderServices(locale) {
       (item) => `
         <article class="service-card reveal">
           <h3>${item.title}</h3>
-          <p>${item.text}</p>
+          <p class="project-role"><strong>${item.company}</strong> · ${item.meta}</p>
+          <div class="bullet-list">
+            ${item.bullets.map((point) => `<div class="bullet-item">${point}</div>`).join("")}
+          </div>
         </article>
       `
     )

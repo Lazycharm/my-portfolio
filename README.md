@@ -8,7 +8,7 @@ A premium, bilingual-ready personal portfolio website for **Ayoub Sowed**.
 - `styles.css` — modern light-theme UI styling
 - `script.js` — content rendering, bilingual toggle, project case-study modal, smooth interactions
 - `assets/projects/*.webp` — project thumbnail images
-- `assets/cv/Ayoub-Sowed-CV.pdf` — downloadable CV placeholder file
+- `assets/cv/Ayoub_Sowed_IT_Support_Specialist.pdf` — downloadable CV file
 
 ## How to open
 
